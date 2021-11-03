@@ -3,17 +3,29 @@
 
 #include <iostream>
 #include <string>
-#include <cstring>
 #include <algorithm>
 using namespace std;
 
 int main() 
 {
-    string inputValue;
+    int maxLength;
+    int flag = 1;
+    cin >> maxLength;
     
-    getline(cin, inputValue);
-
-    cout << inputValue;
-
+    int listNumbers[maxLength];
+    for (int i = 0; i < maxLength; ++i) 
+    {
+        cin >> listNumbers[i];
+    }
+        
+    sort(listNumbers, listNumbers + maxLength);
+    for (int i = 1; i < maxLength; ++i)
+    {
+        if (listNumbers[i] != i)
+        {
+            cout << listNumbers[i] << ' ';
+        }
+    }
+    
     return 0;
 }
