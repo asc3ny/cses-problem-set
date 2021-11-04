@@ -11,7 +11,7 @@ The only input line contains a string of n characters.
 **Output**  
 Print one integer: the length of the longest repetition.
 
-Constraints  
+**Constraints**    
 1 < n < 10^6
 
 **Example**
