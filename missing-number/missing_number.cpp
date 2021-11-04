@@ -1,31 +1,29 @@
 // CSES: Missing Number
 // In progress
 
-#include <iostream>
-#include <string>
-#include <algorithm>
+#include <bits/stdc++.h>
 using namespace std;
 
-int main() 
+int main()
 {
     int maxLength;
-    int flag = 1;
     cin >> maxLength;
-    
+
     int listNumbers[maxLength];
-    for (int i = 0; i < maxLength; ++i) 
+    for (int i = 0; i < maxLength-1; ++i)
     {
         cin >> listNumbers[i];
     }
-        
+
     sort(listNumbers, listNumbers + maxLength);
     for (int i = 1; i < maxLength; ++i)
     {
-        if (listNumbers[i] != i)
-        {
-            cout << listNumbers[i] << ' ';
-        }
+        cout << i << "<=" << listNumbers[i] << endl;
+        // if (listNumbers[i] != i)
+        // {
+        //     cout << listNumbers[i] << endl;
+        // }
     }
-    
+
     return 0;
 }
