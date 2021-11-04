@@ -1,4 +1,6 @@
 // CSES: Weird Algorithm
+// Status: READY
+// Time: 0.01 s
  
 #include <iostream>
 using namespace std;
