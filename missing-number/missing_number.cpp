@@ -12,21 +12,17 @@ int main()
     cin >> maxLength;
  
     int listNumbers[maxLength-1];
-    for (int i = 0; i < maxLength-1; ++i)
-    {
+    for (int i = 0; i < maxLength-1; ++i) {
         cin >> listNumbers[i];
     }
  
     sort(listNumbers, listNumbers + maxLength-1);
-    for (int i = 0; i < maxLength; ++i)
-    {
-        if (listNumbers[i] != count)
-        {
+    for (int i = 0; i < maxLength; ++i) {
+        if (listNumbers[i] != count) {
             cout << count << endl;
             break;
         }
         ++count;
     }
- 
     return 0;
 }
