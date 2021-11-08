@@ -1,26 +1,21 @@
 // CSES: Weird Algorithm
 // Status: READY
 // Time: 0.01 s
- 
-#include <iostream>
+
+#inclide <bits/stdc++.h>
 using namespace std;
 
 int main() 
 {
-    long int inputNumber;
-    cin >> inputNumber;
+    long int inpNum;
+    cin >> inpNum;
 
     while (true)
     {
-        cout << inputNumber << " ";
-
-        if (inputNumber == 1) {
-            break;
-        } else if (inputNumber % 2 == 0) {
-            inputNumber = inputNumber / 2;
-        } else {
-            inputNumber = (inputNumber * 3) + 1;
-        }
+        cout << inpNum << " ";
+        if (inpNum == 1) break;
+        if (inpNum % 2 == 0) inpNum /= 2;
+        else inpNum = inpNum * 3 + 1;
     }
     return 0;
 }
