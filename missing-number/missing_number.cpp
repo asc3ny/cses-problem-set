@@ -8,17 +8,17 @@ using namespace std;
 int main()
 {
     int count = 1;
-    int maxLength;
-    cin >> maxLength;
+    int maxLng;
+    cin >> maxLng;
  
-    int listNumbers[maxLength-1];
-    for (int i = 0; i < maxLength-1; ++i) {
-        cin >> listNumbers[i];
+    int nmbrs[maxLng-1];
+    for (int i = 0; i < maxLng-1; ++i) {
+        cin >> nmbrs[i];
     }
  
-    sort(listNumbers, listNumbers + maxLength-1);
-    for (int i = 0; i < maxLength; ++i) {
-        if (listNumbers[i] != count) {
+    sort(nmbrs, nmbrs + maxLng-1);
+    for (int i = 0; i < maxLng; ++i) {
+        if (nmbrs[i] != count) {
             cout << count << endl;
             break;
         }
