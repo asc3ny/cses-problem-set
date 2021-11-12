@@ -1,8 +1,10 @@
-/* CSES: Missing Number
+/* 
+ * CSES: Missing Number
  * Status: READY
  * Time: 0.07 s
  * Characters: 225
-*/
+ *
+ */
  
 #include <bits/stdc++.h>
 using namespace std;
