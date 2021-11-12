@@ -1,15 +1,19 @@
-// CSES: Weird Algorithm
-// Status: READY
-// Time: 0.01 s
+/* 
+ * CSES: Weird Algorithm
+ * Status: READY
+ * Time: 0.01 s
+ * Characters: 182
+ *
+ */
 
 #include <bits/stdc++.h>
 using namespace std;
-
+ 
 int main() 
 {
     long int inpNum;
     cin >> inpNum;
-
+ 
     while (true)
     {
         cout << inpNum << " ";
