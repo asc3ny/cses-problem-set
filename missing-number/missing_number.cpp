@@ -3,7 +3,6 @@
  * Status: READY
  * Time: 0.07 s
  * Characters: 225
- *
  */
  
 #include <bits/stdc++.h>
