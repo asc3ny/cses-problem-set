@@ -1,4 +1,5 @@
-<a href="https://github.com/ep1ctet/cses-problem-set/"><img alt="Last commit" src="https://img.shields.io/github/last-commit/ep1ctet/cses-problem-set?style=for-the-badge" height="20"/></a>
+<a href="https://github.com/ep1ctet/cses-problem-set/"><img alt="C++" src="https://img.shields.io/badge/C%2B%2B-11-brightgreen" height="20"/></a>
+<a href="https://github.com/ep1ctet/cses-problem-set/"><img alt="Last commit" src="https://img.shields.io/github/last-commit/ep1ctet/cses-problem-set" height="20"/></a>
 
 Compile:
 ---
