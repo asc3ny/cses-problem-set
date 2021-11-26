@@ -3,6 +3,7 @@
  * Status: READY
  * Time: 0.05 s
  * Characters: 411
+ * Link: https://cses.fi/problemset/task/1069
  * TODO: Warning on compiler
  */
 
