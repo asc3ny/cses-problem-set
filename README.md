@@ -11,4 +11,4 @@ Introductory Problems
 - [Weird Algorithm](https://github.com/ep1ctet/cses-problem-set/tree/main/weird-algorithm)
 - [Missing Number](https://github.com/ep1ctet/cses-problem-set/tree/main/missing-number)
 - [Repetitions](https://github.com/ep1ctet/cses-problem-set/tree/main/repetitions)
-- [Increasing Array](https://github.com/ep1ctet/cses-problem-set/tree/mainincreasing-array)
+- [Increasing Array](https://github.com/ep1ctet/cses-problem-set/tree/main/increasing-array)
