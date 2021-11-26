@@ -3,6 +3,7 @@
  * Status: READY
  * Time: 0.01 s
  * Characters: 182
+ * Link: https://cses.fi/problemset/task/1068
  */
 
 #include <bits/stdc++.h>
